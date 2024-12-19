@@ -169,6 +169,7 @@ a {
   &-actions {
     display: flex;
     gap: 1rem;
+    
   }
 }
 
