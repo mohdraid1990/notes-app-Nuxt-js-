@@ -237,4 +237,10 @@ a {
   background-color: #6c757d;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 0.5rem; 
+  }
+}
 </style>
