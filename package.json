@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-notes-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "cross-env HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.1.7",
+    "sass": "^1.72.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
