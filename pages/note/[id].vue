@@ -222,6 +222,7 @@ export default {
 
 .todo-item {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
   margin-bottom: 0.5rem;
@@ -236,6 +237,8 @@ export default {
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
+      flex-wrap: wrap;
+
 }
 
 .error-message {
